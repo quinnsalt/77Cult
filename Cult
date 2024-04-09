@@ -16,7 +16,7 @@ local Circle = Drawing.new("Circle")
  
 local CF, RNew, Vec3, Vec2 = CFrame.new, Ray.new, Vector3.new, Vector2.new
  
-local OldAimPart = getgenv().Settings.Part.AimPart
+local OldAimPart = getgenv().Cult.Part.AimPart
  
 local AimlockTarget, MousePressed, CanNotify = nil, false, false
  
